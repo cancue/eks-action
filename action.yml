@@ -1,0 +1,8 @@
+name: "EKS Action"
+description: "Interacts with kubernetes clusters on eks by `kubectl` commands."
+branding:
+  icon: 'box'
+  color: 'gray-dark'
+runs:
+  using: "docker"
+  image: "Dockerfile"
