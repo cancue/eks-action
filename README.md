@@ -28,7 +28,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Deploy
-        uses: cancue/eks-action@0.0.2
+        uses: cancue/eks-action@v0.0.2
         env:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
